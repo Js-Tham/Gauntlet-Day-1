@@ -4,13 +4,13 @@
 class Vec2{
     public:
         Vec2(float x, float y);
-        float x const;
-        float y const;
+        float x() const;
+        float y() const;
         float length () const;
 
         void setX(float x);
         void setY(float y);
-        Vec2 plus(const Vec2&) const;
+        Vec2 plus(const Vec2& other) const;
 
 
     private:

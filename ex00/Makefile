@@ -3,7 +3,7 @@ NAME := ex00_demo
 CXX      := c++
 CXXFLAGS := -Wall -Wextra -Werror -std=c++17
 
-SRCS := main.cpp
+SRCS := main.cpp Vec2.cpp
 OBJS := $(SRCS:.cpp=.o)
 
 all: $(NAME)

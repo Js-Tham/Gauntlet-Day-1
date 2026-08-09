@@ -1,3 +1,19 @@
 #include <iostream>
+#include "Vec2.hpp"
 
+int main(){
+    const Vec2 a(3.0f, 4.0f);
+    Vec2 b(1.0f, 2.0f);
 
+    std::cout << "a = (" << a.x() << ", " << a.y() << "), length " << a.length() << "\n";
+
+    Vec2 sum = a.plus(b);
+
+    std::cout << "a + b = (" << sum.x() << ", " << sum.y() << ")\n";
+
+    b.setX(10.0f);
+
+    std::cout << "b now (" << b.x() << ", " << b.y() << ")\n";
+
+    return 0;
+}
