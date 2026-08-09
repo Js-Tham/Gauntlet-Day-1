@@ -1,4 +1,4 @@
-NAME := ex00_demo
+NAME := vec2
 
 CXX      := c++
 CXXFLAGS := -Wall -Wextra -Werror -std=c++17

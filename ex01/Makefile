@@ -1,4 +1,4 @@
-NAME := ex01_demo
+NAME := timer
 
 CXX      := c++
 CXXFLAGS := -Wall -Wextra -Werror -std=c++17
